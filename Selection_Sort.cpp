@@ -44,8 +44,8 @@ void SelectionSort(T* arr, int size)
 		for (int j = 0; j < temp_size; j++)
 		{
 			if (maxValue(*(arr + j + i), *(arr + j + 1 + i)) > temp) /*This condition assures that the "temp" variable
-																	 will always contain the max element in the unsorted
-																	 array.*/
+										will always contain the max element in the unsorted
+										array.*/
 			{
 				temp = maxValue(*(arr + j + i), *(arr + j + 1 + i));
 
