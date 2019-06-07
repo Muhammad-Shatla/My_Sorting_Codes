@@ -2,9 +2,6 @@
 #include <cmath>
 #include <string>
 
-//#include<string.h>
-
-using namespace std;
 
 template<typename T>
 T maxValue(T value1, T value2)  /*Generic Function Template to get the max of two inputs of any primitive
