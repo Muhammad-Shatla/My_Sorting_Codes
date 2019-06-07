@@ -55,33 +55,5 @@ void SelectionSort(T* arr, int size)
 		
 		swap(arr + i, arr + maxIndex);
 		
-		//cout << *(arr + i) << endl;
 	}
-
-	for (int i = 0; i < size; i++)
-	{
-		cout << *(arr + i) << endl;
-	}
-}
-
-int main()
-{
-	int* arr; int size;
-
-	cout << "Enter the array size: ";
-
-	cin >> size;
-
-	arr = new int[size];
-
-	cout << "\nEnter an unsorted array: ";
-
-	for (int i = 0; i < size; i++)
-	{
-		cin >> *(arr + i);
-	}
-
-	SelectionSort(arr, size);
-
-	delete[] arr;
 }
